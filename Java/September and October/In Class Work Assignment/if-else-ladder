@@ -4,10 +4,10 @@ class Main {
   int s = 23;
 
     if(s > 10) {
-      System.out.println("The number is greater than 20");
+      System.out.println("The number is greater than 10");
         } 
      else if (s > 20) {
-          System.out.println("The number is greater than 10");
+          System.out.println("The number is greater than 20");
   } 
 
   }
