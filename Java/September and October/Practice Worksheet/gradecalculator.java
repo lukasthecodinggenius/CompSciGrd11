@@ -1,8 +1,12 @@
+import java.util.Scanner;
+
 class Main {
   public static void main(String[] args) {
   
-int grade = 40;
 
+Scanner value = new Scanner(System.in);
+System.out.println("Enter Grade: ");
+int grade = value.nextInt();
 
  if (grade >= 80) {
 
@@ -21,6 +25,10 @@ int grade = 40;
   System.out.println("Failed");
 }
       
+      
+  } 
+
+  }
       
   } 
 
