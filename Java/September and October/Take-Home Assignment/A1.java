@@ -19,4 +19,6 @@ if (name.equals(name2)) {
   System.out.println("The names are different");
 }
 
+  }
+}
 
