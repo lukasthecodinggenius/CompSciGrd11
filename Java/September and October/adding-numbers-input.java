@@ -1,4 +1,4 @@
-import java.util.Scanner;
+  import java.util.Scanner;
 
 class Test {
   public static void main(String[] args) {
@@ -6,16 +6,15 @@ class Test {
 Scanner input = new Scanner(System.in);
 
 int sum = 0;
-int num = 0;
+
 
 System.out.println("Enter the amount of numbers you will add");
 
 int additions = input.nextInt();
 
-do {
-  sum +=
+for(int num = 1; num <= additions; num++) {
+  
 }
-
 
 
 
@@ -24,6 +23,9 @@ do {
   } 
 
   }   
+
+
+  
 
 
 
